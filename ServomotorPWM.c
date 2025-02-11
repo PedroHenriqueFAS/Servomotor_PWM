@@ -47,23 +47,24 @@ int main() {
 
     // Movimentação suave entre 0° e 180° continuamente
     uint16_t pos = DUTY_0;
-    int direction = 5; // Incremento positivo inicialmente
+    int direction = 2; // Incremento positivo inicialmente
 
     while (true) {
+        pos += direction;
+        set_servo_position(PWM_SERVO, pos);
+        sleep_ms(10);
 
         pos += direction;
 
         if (pos >= DUTY_180) {
             pos = DUTY_180;
-            direction = -5; // Inverte direção
+            direction = -2; // Inverte direção
         } 
         else if (pos <= DUTY_0) {
             pos = DUTY_0;
-            direction = 5; // Inverte direção
+            direction = 2; // Inverte direção
         }
-        pos += direction;
-        set_servo_position(PWM_SERVO, pos);
-        sleep_ms(10);
+
     }
 }
 
