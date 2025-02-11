@@ -98,6 +98,10 @@ Para compilar e rodar o código no Raspberry Pi Pico:
 
 1. **Pedro Henrique Ferreira Amorim da Silva** - [GitHub](https://github.com/PedroHenriqueFAS)
 
+## 🎥 Vídeo Ensaio
+
+- `Link`: https://youtube.com/shorts/s_YQZdhLbGE?si=6k_QyQe1CEHGXqHc
+
 ## 📜 Licença
 
 Este projeto está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
