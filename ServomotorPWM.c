@@ -3,6 +3,8 @@
 #include "hardware/pwm.h"
 
 #define PWM_SERVO 22 // Pino para controle do servomotor
+// #define PWM_SERVO 12 // Pino para controle do led da placa
+
 
 const float PWM_FREQUENCY = 50.0; // Frequência de 50Hz (Período de 20ms)
 const uint16_t WRAP_PERIOD = 40000; // Valor máximo do contador PWM para 50Hz
