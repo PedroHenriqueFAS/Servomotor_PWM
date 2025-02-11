@@ -46,7 +46,6 @@ int main() {
     sleep_ms(5000);
 
     // Movimentação suave entre 0° e 180° continuamente
-    printf("Movimentação suave iniciada\n");
     uint16_t pos = DUTY_0;
     int direction = 5; // Incremento positivo inicialmente
 
